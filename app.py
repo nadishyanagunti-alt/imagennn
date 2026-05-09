@@ -1,3 +1,9 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
+# NOW you can do your other imports
+import streamlit as st
+from moviepy.editor import ...
 import streamlit as st
 import os
 import tempfile
